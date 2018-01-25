@@ -236,13 +236,16 @@
 	font-size: 13px;
 	display: inline-block;
 }
+#gslist {
+	height: 80px;
+}
 #gslist li {
 	margin-left: 70px;
-	width: 215px;
+	width: 220px;
 	height: 18px;
 	list-style-type: square;
 	font-size: 13px;
-	color: #8ab6dc;
+	color: black;
 	line-height: 1.4;
 	text-align: center;
 }
@@ -266,9 +269,12 @@
 	height: 18px;
 	list-style-type: square;
 	font-size: 13px;
-	color: #8ab6dc;
+	color: black;
 	line-height: 1.4;
 	text-align: center;
+}
+.listcolor {
+	color: #8ab6dc;
 }
 #footer {
 	background: linear-gradient(#245076,#6496c2);
