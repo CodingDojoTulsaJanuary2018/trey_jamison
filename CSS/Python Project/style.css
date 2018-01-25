@@ -1,0 +1,280 @@
+* {
+	vertical-align: baseline;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	font-family: "Arial", Helvetica, sans-serif;
+}
+#container {
+	background-color: #245076;
+	/* background-image: url("python-bsd.jpg"); */
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 970px;
+	height: 807px;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+#logobox {
+	width: 610px;
+	height: 116px;
+	margin: 8px 0px 0px 0px;
+	padding: 0;
+	display: inline-block;
+	vertical-align: top;
+}
+#logobox img {
+	height: 97px;
+	margin: 8px 0px 2px 33px;
+	padding: 0px 0px 0px 0px;
+	display: inline-block;
+}
+#searchbar {
+	width: 352px;
+	height: 114px;
+	display: inline-block;
+}
+#fontsizer {
+	width: 352px;
+	height: 26px;
+	display: inline-block;
+}
+#fontsizer p {
+	margin-top: 9px;
+	margin-left: 162px;
+	font-size: 13px;
+	color: white;
+}
+#sizer1 {
+	color: #9e9423;
+	text-decoration: underline;
+}
+#sizer2 {
+	color: #9e9423;
+	text-decoration: underline;
+}
+#divider {
+	color: black;
+}
+#searchpage {
+	background-color: #444444;
+	border-radius: 12px;
+	box-shadow: 2px 2px 1px;
+	margin-left: 69px;
+	margin-right: 0;
+	width: 276px;
+	height: 63px;
+	display: inline-block;
+}
+#links {
+	background-color: #447dad;
+	border-radius: 5px;
+	box-shadow: 2px 2px 1px;
+	width: auto;
+	margin: 4px 34px 6px 84px;
+	height: 48px;
+}
+#links ul {
+	padding-top: 13px;
+	height: 48px;
+	text-align: center;
+}
+#links ul li {
+	display: inline-block;
+	list-style-type: none;
+	font-size: 20px;
+	color: white;
+	width: 138px;
+}
+#middle {
+	width: inherit;
+	height: 302px;
+	display: inline-block;
+}
+#navpane {
+	width: 300px;
+	height: 302px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	display: inline-block;
+}
+#navpane ul {
+	width: inherit;
+	list-style: square;
+	list-style-position: inside;
+}
+#navpane ul li {
+	margin: 14px 0px -3px 78px;
+	padding-top: 18px;
+	width: auto;
+	height: 0;
+	line-height: 0;
+	text-decoration: underline;
+	font-size: 16px;
+	color: #fbfcfd;
+}
+#middleright {
+	width: 610px;
+	height: 294px;
+	margin: 0;
+	padding: 8px 54px 0px 0px;
+	padding-right: 54px;
+	vertical-align: top;
+	display: inline-block;
+	text-align: center;
+}
+#background {
+	margin-top: 1px;
+	margin-right: 4px;
+	font-size: 14px;
+	color: #fbfcfd;
+	font-family: "Arial", Helvetica, sans-serif;
+}
+#quote {
+	margin: 1px 4px 0px 1px;
+	height: 150px;
+	line-height: 1.7;
+	font-size: 19px;
+	font-style: italic;
+	font-family: "Arial", Helvetica, sans-serif;
+	color: yellow;
+}
+#author {
+	margin: 17px;
+	font-family: "Arial", Helvetica, sans-serif;
+	font-size: 16px;
+	color: #fbfcfd;
+}
+#learnpython {
+	background-color: #ffffff;
+	border-top: 2px solid #505050;
+	border-bottom: 2px solid #505050;
+	width: inherit;
+	height: 218px;
+	vertical-align: text-top;
+	vertical-align: top;
+}
+#getstarted {
+	margin: 7px 0px 0px 104px;
+	padding: 0;
+	width: 399px;
+	height: 222px;
+	display: inline-block;
+}
+#applications {
+	margin-top: 7px;
+	margin-left: 20px;
+	padding: 0;
+	width: 400px;
+	height: 222px;
+	display: inline-block;
+	vertical-align: top;
+}
+#line1, #line2 {
+	background-color: #73a7d5;
+	margin-top: 1px;
+	padding: 0;
+	width: 399px;
+	height: 4px;
+	vertical-align: top;
+	display: inline-block;
+}
+#sectionhead1, #sectionhead2 {
+	margin-top: 2px;
+	margin-bottom: 0;
+	padding: 0;
+	width: 109px;
+	height: 10px;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 0;
+	display: inline-block;
+	text-align: center;
+	vertical-align: text-top;
+	vertical-align: top;
+	display: inline-block;
+}
+#sectionhead1 {
+	margin-left: 107px;
+}
+#sectionhead2 {
+	margin-left: 108px;
+}
+#getstart {
+	margin-top: 0;
+	margin-left: 24px;
+	margin-right: 0;
+	width: 266px;
+	height: 76px;
+	text-align: center;
+	font-size: 13px;
+	display: inline-block;
+}
+#gslist li {
+	margin-left: 70px;
+	width: 215px;
+	height: 18px;
+	list-style-type: square;
+	font-size: 13px;
+	color: #8ab6dc;
+	line-height: 1.4;
+	text-align: center;
+}
+#apps {
+	margin-top: 0;
+	margin-left: 20px;
+	margin-right: 0;
+	width: 282px;
+	height: 76px;
+	text-align: center;
+	font-size: 13px;
+	display: inline-block;
+}
+#pypi {
+	color: #8ab6dc;
+	font-size: 11px;
+}
+#appslist li {
+	margin-left: 70px;
+	width: 215px;
+	height: 18px;
+	list-style-type: square;
+	font-size: 13px;
+	color: #8ab6dc;
+	line-height: 1.4;
+	text-align: center;
+}
+#footer {
+	background: linear-gradient(#245076,#6496c2);
+	width: auto;
+	height: 101px;
+}
+#footerlinks {
+	width: 970px;
+	height: 100px;
+}
+#footer ul {
+	margin: 0px 0px 0px 57px;
+	list-style-type: none;
+	text-align: center;
+}
+#footer ul li {
+	margin-top: 49px;
+	margin-left: 0;
+	width: 195px;
+	height: 30px;
+	font-size: 16px;
+	font-weight: 500;
+	color: #81b4e0;
+	display: inline-block;;
+	text-align: center;
+}
+#footer p {
+	margin-top: 2px;
+	margin-right: 1px;
+	text-align: center;
+	font-size: 10px;
+	color: #81b4e0;
+}
